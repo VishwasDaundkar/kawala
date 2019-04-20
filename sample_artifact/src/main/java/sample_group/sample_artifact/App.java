@@ -1,4 +1,6 @@
-package sample_group.sample_artifact;
+	package sample_group.sample_artifact;
+
+import java.util.Scanner;
 
 /**
  * Hello world!
@@ -7,11 +9,14 @@ package sample_group.sample_artifact;
 public class App 
 {
     public static void main( String[] args )
-    {
+    { 
         System.out.println( "Hello World!" );
-        System.out.println("Lets start fucking world...");
-        System.out.println("Ohhhh.....Yes....!!!");
-        System.out.println("I was checking branch conflict...");
+        
+        while(true) {
+        	System.out.println("Please Enter your name:-");
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Your name is : "+scanner.nextLine());
+        }
         
     }
 }
